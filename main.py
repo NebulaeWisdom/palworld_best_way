@@ -72,7 +72,7 @@ def find_combinations(items, data):
 
 
 def main():
-    file_path = 'combinations.csv'
+    file_path = 'combinationsfix.csv'
     input_items = ['紫霞鹿', '天擒鸟']
     data = read_csv(file_path)
     combinations = find_combinations(input_items, data)
